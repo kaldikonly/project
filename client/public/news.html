@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mind cloud</title>
+	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/news.css">
+
+	<!--<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">-->
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+	<div class="container-fluid first">
+		<div class="row" id="left_menu">
+			<div class="col-sm-1 menu" id="menus">
+			<div id="first_block">	
+			<b id="name_company">all<b id="name_hide">Search</b></b>
+			</div>
+
+				<div id="main_menu">
+					<ul id="category_list">
+						
+					
+						<li><a id="category" href="#">
+						<i  class="fas fa-globe icon_menu"></i>
+						<span class="text_menu">search</span></a></li>
+
+						<li><a id="category" href="#">
+							<i class="fas fa-chart-pie icon_menu"></i>
+							<span class="text_menu">analitics</span></a></li>
+
+						<li><a id="category" href="#">
+							<i class="fas fa-chart-bar icon_menu"></i>
+							<span class="text_menu">reports</span>
+						</a></li>
+							<li><a id="category" href="https://search-momproject-yrhnxkfn3zfeumvy35cjskfxea.us-east-2.es.amazonaws.com/_plugin/kibana/">
+							<i class="fab fa-kickstarter-k icon_menu"></i>
+							<span class="text_menu">kibana</span>
+						</a></li>
+					</ul>
+	
+				</div>
+				<div id="menu_bot">
+					<div id="set"><a id="category" href=""><i class="fas fa-cog icon_menu"></i><span class="text_menu">settings</span></a></div>
+					<div id="icon_hide"><a id="menu_hide" href="#"><i id="button_hide" class="fas fa-angle-left">
+						</i></a>
+					<a id="menu_show" href="#"><i id="button_show" class="fas fa-angle-right"></i></a></div>
+				</div>
+			</div>
+			
+
+			<div class="col news_part">
+
+							<div class="row wow" id="first_row">	
+					<i id="search_icon" class="fas fa-search"></i>
+					<input id="search" type="text" placeholder="Search..">
+							
+							<input type="text" id="daterange" value="01/01/2015 - 01/31/2015" />
+							<a id="n_search" href="#">поиск</a>
+						</div>
+						<div id="filter_table">
+							<li class="text-center"><h4 id="fil_cho">выберите фильтр</h4></li>
+							<li ><label class="containeree">По тональности
+ 								 <input id="tone_r" type="checkbox">
+  								<span class="checkmark"></span>
+								</label>
+							</li>
+							<li >
+							<label class="containeree">По источникам
+ 							 <input id="where_r" type="checkbox">
+  							<span class="checkmark">
+  							</span>
+							</label></li>
+							<li ><label class="containeree">По авторам
+  									<input id="author_r" type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+							<li id="opt" class="text-center"><a id="den" href="#">отмена</a>
+								<a id="conf" href="#">ок</a></li>
+						</div>
+						<div class="row wow" id="fil_row">
+						<a id="clear_all" href="#">очистить все</a>
+						<a id="fil_add" href="#"><img src="image/Add.png" alt="">Добавить фильтр</a>
+						<a id="tone_f" href="#">тональность</a>
+						<a id="who_f" href="#">источники</a>
+						<a id="author_f" href="#">авторы</a>
+
+				<div id="tone_op">	
+							<li class="text-center"><h4 id="fil_cho">выберите тональность</h4></li>
+							<li ><label class="containeree">негативная
+ 								 <input id="tone_r" type="checkbox">
+  								<span class="checkmark"></span>
+								</label>
+							</li>
+							<li >
+							<label class="containeree">позитивная
+ 							 <input id="where_r" type="checkbox">
+  							<span class="checkmark">
+  							</span>
+							</label></li>
+							<li ><label class="containeree">нейтральная
+  									<input id="author_r" type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+								<li ><label class="containeree">неоеределено
+  									<input id="author_r" type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+						</div>
+
+						<div id="who_option">
+							<h3 id="who_hd">выберите категорию</h3>
+							<li ><label id="who_1" class="containeree">социальные сети
+ 								 <input  type="checkbox">
+  								<span class="checkmark"></span>
+								</label>
+							</li>
+							<li >
+							<label id="who_1" class="containeree">сми
+ 							 <input  type="checkbox">
+  							<span class="checkmark">
+  							</span>
+							</label></li>
+							<li ><label id="who_1" class="containeree">блоги
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+								<li ><label id="who_1" class="containeree">неопределено
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+									<li ><label id="who_1" class="containeree">форумы
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+							<h3 id="who_hd">выберите источники</h3>
+							<i id="who_ic" class="fas fa-search"></i>
+								<input id="who_srch" type="text" placeholder="Search">
+								<br>
+							<li ><label id="who_" class="containeree">vk.com
+ 								 <input  type="checkbox">
+  								<span class="checkmark"></span>
+								</label>
+							</li>
+							<li >
+							<label id="who_" class="containeree">facebook
+ 							 <input  type="checkbox">
+  							<span class="checkmark">
+  							</span>
+							</label></li>
+							<li ><label id="who_" class="containeree">twitter
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+								<li ><label id="who_" class="containeree">instagram
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+									<li ><label id="who_" class="containeree">google+
+  									<input  type="checkbox">
+  									<span class="checkmark">
+  							</span>
+								</label></li>
+
+						</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-9 reason">
+									<div class="row">
+								<a id="redo"><i class="fas fa-redo-alt"></i><span>25</span></a>
+								
+								<i id="n_icon" class="fas fa-list"></i>
+									<i id="n_icon" class="fas fa-angle-right"></i>
+									<i id="n_icon" class="fas fa-angle-left"t></i>
+									<span id="page_m">1-50 из 25 000</span>
+									</div>
+									<div class="row record">
+										<div class=" rec_one">
+											<a id="rec_name" href="#">новое время</a>
+											<span id="rec_time">27 февраля 22:15 (10 часов назад)</span>
+									<fieldset class="rating" id="rate">
+									    <input type="radio" id="star10" name="rating" value="10" /><label class = "full" for="star5" title="10"></label>
+    <input type="radio" id="star4half" name="rating" value="9 and a half" /><label class="half" for="star4half" title=" 9.5 "></label>
+    <input type="radio" id="star9" name="rating" value="9" /><label class = "full" for="star9" title="9"></label>
+    <input type="radio" id="star3half" name="rating" value="8 and a half" /><label class="half" for="star3half" title="8.5"></label>
+    <input type="radio" id="star8" name="rating" value="8" /><label class = "full" for="star8" title="8"></label>
+    <input type="radio" id="star2half" name="rating" value="7 and a half" /><label class="half" for="star2half" title="7.5"></label>
+    <input type="radio" id="star7" name="rating" value="7" /><label class = "full" for="star7" title="7"></label>
+    <input type="radio" id="star1half" name="rating" value="6 and a half" /><label class="half" for="star1half" title="6.5"></label>
+    <input type="radio" id="star6" name="rating" value="6" /><label class = "full" for="star6" title="6"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="5.5 "></label>
+
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 "></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title=" 4.5 "></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 "></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title=" 3.5 "></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 "></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="2.5 "></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 "></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 "></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="1"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title=" 0.5 "></label>
+</fieldset>
+							</div>
+
+						<div  id="rec_sec">
+						<img id="rec_img" src="image/first.jpg" alt="first">
+						<h2 id="rec_hd">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+						<p id="rec_text">Nulla sit amet neque eleifend, laoreet augue eu, tristique veDonec pretium, nisl quis dignissim <br> dignissim, massa sem placerat lectus, sit amet sodales nibh arcu gravida augue. Cras auctor, neque non fermentum bibendum, arcu urna aliquam mi, in luctus justo dolor eget nulla. Quisque euismod vestibulum arcu quis vehicula. Quisque scelerisque velit quis erat hendrerit venenatis. Integer aliquet in felis eget tristique. Proin consequat vehicula dolor. Nulla finibus metus nunc, at maximus purus sollicitudin in. Fusce lacus tortor, rhoncus non finibus in, laoreet non est. Quisque porttitor ligula nisi, ut efficitur arcu ultricies et. Suspendisse vitae fringilla ante. In rhoncus, velit vitae tincidunt cursus, neque lectus rutrum nunc, id egestas nisl nisi vel neque. Praesent vehicula rhoncus libero non sagittis. Sed quis augue eu libero varius efficitur. Donec eleifend hendrerit nisl, vel tincidunt purus ultrices ut. Suspendisse non nisi nec enim pharetra elementum.</p>
+						<a id="rec_all" href="#">...далее</a>
+											<a id="rec_opn" href="#"><i id="rec_icn" class="fas fa-angle-down"></i></a>
+										</div>
+										<div class="row" id="rec_fot">
+											<a id="smile_a" href="#"><i id="smile" class="far fa-smile"></i></a>
+
+											<li id="left_dw"><a  href="#"><img src="image/add_site_form/next.png" alt=""></a></li>
+											<li id="read"><a  href="#">читать</a></li>
+											<li id="more"><a  href="#">подробнее</a></li>
+									</div>
+								</div>
+								</div>
+
+							<div class="col-sm-2 word">
+
+							<div class="block">
+								<span class="bl_txt">Олимпиада</span>
+								<span class="bl_count">19856</span>
+								</div>
+
+								<div class="block2">
+								<span class="bl_txt">Олимпиада</span>
+								<span class="bl_count">19856</span>
+								</div>
+								
+								<div class="block2">
+								<span class="bl_txt">Олимпиада</span>
+								<span class="bl_count">19856</span>
+								</div>
+								<div class="block2">
+								<span class="bl_txt">Олимпиада</span>
+								<span class="bl_count">19856</span>
+								</div>
+
+						
+							</div>
+						</div>
+			</div>
+
+
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</script>
+
+			<script>
+		$(document).ready(function(){
+    $("#menu_hide").click(function(){
+    	 event.preventDefault();
+        $("#menus").css("width", "50px");
+        $(".text_menu").css("display", "none");
+        $("#set").css("width", "35px");
+        $("#button_hide").css("display","none");
+         $("#button_show").css("display","block");
+        $(".news_part").css("margin-left", "49px");
+       $("#name_hide").hide();
+ });
+    $("#menu_show").click(function(){
+    	event.preventDefault();
+        $("#menus").css("width", "95px");
+        $(".icon_menu").css("float","left");
+        $(".text_menu").css("display", "block").css("float","left");
+        $(".news_part").css("margin-left", "94px");
+        $("#set").css("width", "85px");
+        $("#button_hide").css("display","block");
+         $("#button_show").css("display","none");
+          $("#name_hide").show();
+
+    });
+    		$("#den").click(function(){
+    	event.preventDefault();
+    	 $("#filter_table").hide("slow");
+    	 $("#fil_add").css("border", "1px solid var(--blue)");
+				$("#fil_add").css("background-color","var(--blue)");
+    	});
+    		$("#conf").click(function(){
+    	event.preventDefault();   
+    	 $("#fil_add").css("border", "1px solid var(--blue)");
+			$("#fil_add").css("background-color","var(--blue)");		
+    	 $("#filter_table").hide("fast");
+    	  $("#fil_add").hide("fast");
+    		if( $("#tone_r").is(':checked') ){
+    				$("#tone_f").show("slow");
+    	}
+    	if( $("#author_r").is(':checked') ){
+    		$("#author_f").show("slow");
+    	}
+    		if( $("#where_r").is(':checked') ){
+					$("#who_f").show("slow");
+    		}
+    		$("#clear_all").show("slow");
+    	});
+    			$("#fil_add").click(function(){
+    				event.preventDefault();
+    			$("#fil_add").css("border", "1px solid var(--dark)");
+				$("#fil_add").css("background-color","var(--dark)");
+				$("#filter_table").show("slow");
+				});
+
+    			$("#tone_f").click(function(){
+    					event.preventDefault();   
+    					if($("#tone_op").is(":visible")){	
+    						$("#tone_op").hide("slow");
+    					}
+    					else{
+    					$("#tone_op").show("fast");
+    						}
+    			     });
+    			$("#who_f").click(function(){
+    					event.preventDefault();   
+    					if($("#who_option").is(":visible")){	
+    						$("#who_option").hide("slow");
+    					}
+    					else{
+    					$("#who_option").show("fast");
+    						}
+    			     });
+
+    	
+    			$("#clear_all").click(function(){
+    				event.preventDefault();   	
+    			$("#tone_f").hide("fast");
+				$("#author_f").hide("fast");
+				$("#who_f").hide("fast");
+				$("#clear_all").hide("fast");
+				  $("#fil_add").show("slow");
+    				  });
+
+
+     });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mind cloud</title>
+	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">-->
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid first">
+		<div class="row" id="information_part">
+		
+</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+
+    $("#menu_hide").click(function(){
+    	 event.preventDefault();
+        $(".menu").css("width", "50px");
+        $(".text_menu").css("display", "none");
+        $("#set").css("width", "35px");
+        $("#button_hide").css("display","none");
+         $("#button_show").css("display","block");
+        $(".main_part").css("margin-left", "49px");
+       $("#name_hide").hide();
+       $(".texts_menu").hide(); 
+        $("#name_a").hide(); 
+          $(".news_div").css("margin-left", "0px"); 
+          $(".news_part").css("margin-left", "50px"); 
+
+    });
+
+    $("#menu_show").click(function(){
+    	event.preventDefault();
+        $(".menu").css("width", "");
+        $(".icon_menu").css("float","left");
+        $(".text_menu").css("display", "block").css("float","left");
+        $(".main_part").css("margin-left", "");
+        $("#set").css("width", "180px");
+        $("#button_hide").css("display","block");
+         $("#button_show").css("display","none");
+          $("#name_hide").show();
+          $(".texts_menu").show(); 
+        $("#name_a").show(); 
+              $(".news_div").css("margin-left", "185px");
+               $(".news_part").css("margin-left", "210px");  
+
+    });
+     $("#add_button").click(function(){
+     	event.preventDefault();
+     		$("#add_site_form").show();
+     //	$("#filter_option").show();
+     //	$("#add_button").css("background-color","var(--dark)").css("border","1px solid var(--dark)");
+     //	$("#filter_icon").css("background-color", "var(--dark)");
+});
+      $(".ht_canc").click(function(){
+      	event.preventDefault();
+      	$("#add_site_form").hide();
+      	});
+
+        $("#soc_canc").click(function(){
+      	event.preventDefault();
+      	$("#add_site_form").hide();
+      	});
+
+         $("#html_click").click(function(){
+      	event.preventDefault();
+      	$("#soc_seti_part").hide();
+      	$("#who_part").hide();
+      	$("#html_part").show();
+		});
+
+
+        $("#soc_click").click(function(){
+      	event.preventDefault();
+      	$("#html_part").hide();
+      	$("#who_part").hide();
+      	$("#soc_seti_part").show();
+		});
+
+
+        $("#who_click").click(function(){
+      	event.preventDefault();
+      	$("#soc_seti_part").hide();
+      	$("#html_part").hide();
+      	$("#who_part").show();
+      
+		});
+
+     $(".filter_text").click(function(){
+     	event.preventDefault();
+     	$("#add_button").hide();
+     	$("#filter_option").hide();
+     	$("#filter_record").show();
+     		$("#filter_word").append( $(this).text() );
+     		$("#band").show();
+
+     });
+$("#or").click(function(){
+	event.preventDefault();
+	$("#or").empty();
+	$("#band").empty();
+	$("#band").append("OR");
+	$("#or").append("AND");
+});
+
+  $("#band").click(function(){
+  	event.preventDefault();
+  	$("#or").empty();
+	$("#band").empty();
+	$("#or").append("OR");
+	$("#band").append("AND");
+  });
+
+$("#den").click(function(){
+    	event.preventDefault();
+    	 $("#filter_table").hide("slow");
+    	 $("#fil_add").css("border", "1px solid var(--blue)");
+				$("#fil_add").css("background-color","var(--blue)");
+    	});
+    		$("#conf").click(function(){
+    	event.preventDefault();   
+    	 $("#fil_add").css("border", "1px solid var(--blue)");
+			$("#fil_add").css("background-color","var(--blue)");		
+    	 $("#filter_table").hide("fast");
+    	  $("#fil_add").hide("fast");
+    		if( $("#tone_r").is(':checked') ){
+    				$("#tone_f").show("slow");
+    	}
+    	if( $("#author_r").is(':checked') ){
+    		$("#author_f").show("slow");
+    	}
+    		if( $("#where_r").is(':checked') ){
+					$("#who_f").show("slow");
+    		}
+    		$("#clear_all").show("slow");
+    	});
+    			$("#fil_add").click(function(){
+    				event.preventDefault();
+    			$("#fil_add").css("border", "1px solid var(--dark)");
+				$("#fil_add").css("background-color","var(--dark)");
+				$("#filter_table").show("slow");
+				});
+
+    			$("#tone_f").click(function(){
+    					event.preventDefault();   
+    					if($("#tone_op").is(":visible")){	
+    						$("#tone_op").hide("slow");
+    					}
+    					else{
+    					$("#tone_op").show("fast");
+    						}
+    			     });
+    			$("#who_f").click(function(){
+    					event.preventDefault();   
+    					if($("#who_option").is(":visible")){	
+    						$("#who_option").hide("slow");
+    					}
+    					else{
+    					$("#who_option").show("fast");
+    						}
+    			     });
+
+    	
+    			$("#clear_all").click(function(){
+    				event.preventDefault();   	
+    			$("#tone_f").hide("fast");
+				$("#author_f").hide("fast");
+				$("#who_f").hide("fast");
+				$("#clear_all").hide("fast");
+				  $("#fil_add").show("slow");
+    				  });
+
+    $("#rec_all").click(function(){
+          event.preventDefault();  
+          $("#rec_text").css("white-space", " ").css("overflow","visible");
+              });
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
+var scene1 = document.getElementById('scene1');
+var parallaxInstance2 = new Parallax(scene1);
+
+var scene2 = document.getElementById('scene2');
+var parallaxInstance3 = new Parallax(scene2);
+
+
+
+});
+
+	</script>
+</body>
+</html>
