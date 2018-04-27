@@ -17,6 +17,7 @@
     "express": "^4.16.2",
     "history": "^4.7.2",
     "jquery-bar-rating": "^1.2.2",
+    "json-stringify": "^1.0.0",
     "mysql": "^2.15.0",
     "npm": "^5.8.0",
     "react": "^16.2.0",
