@@ -5,7 +5,7 @@ class Word_news extends Component{
 	render(){
 		return (
 					<div className="col word_b">
-<div className="word">
+				<div className="word">
 							<div className="block3">
 								<span className="bl_txt">Олимпиада</span>
 								<span className="bl_count">19856</span>

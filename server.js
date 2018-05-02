@@ -89,8 +89,8 @@ con.query(sql, (err,result) =>{
     });
    });
 
-   app.post('/students', (req,res) =>{
-         let filter = req.body;
+   app.post('/soon', (req,res) =>{
+         let filter = req.body.mySearch;
          echo(filter);
            console.log(filter);
    });

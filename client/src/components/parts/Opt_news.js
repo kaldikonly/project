@@ -30,12 +30,15 @@ handleClick = (e) =>{
 		name: this.state.mySearch
 	}
 	axios
-	.post('/students', { arr : JSON.stringify()})
+	.post('/soon', { arr : JSON.stringify()})
 	.then(res => {
 		console.log(res);
 		console.log(res.data);
 		alert('YEEEESSSS');
 	})
+	.catch(error => {
+		console.log(error)
+	});
 	
 
 }
