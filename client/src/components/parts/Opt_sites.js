@@ -10,7 +10,7 @@ class Opt_sites extends Component {
                     <div id="search_flex_block">
                         <div id="search_container">
                             <label id="search_label" htmlFor="">
-                                <input id="sitesSearch" type="text" placeholder="Search..."/></label>
+                                <input id="sitesSearch" type="text" placeholder="Поиск..."/></label>
                         </div>
                         <div id="btn_container">
                             <button id="blue_btn" class="blue_btn" type="button">Поиск</button>
