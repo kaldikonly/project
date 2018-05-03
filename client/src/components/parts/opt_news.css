@@ -364,3 +364,24 @@ margin-right:20px;
 	color: var(--blue);
 	margin-left: 5px;
 }
+
+/* Daterange*/
+#reportrange{
+
+background: #fff;
+ cursor: pointer;
+  padding: 5px 10px;
+   border: 1px solid #ccc;
+   	margin-top: 7px;
+border-radius:15px 15px 15px 15px;
+width:200px;
+text-align: center;
+float: right;
+margin-right: 30px;
+height: 26px;
+}
+
+.daterangepicker .calendar {
+  max-width: 600px;
+
+	}
