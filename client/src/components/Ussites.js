@@ -8,8 +8,9 @@ import Sites from './urls/Sites';
 const Ussites = () => (
 		<div >
   		<Left />
+        <Opt />
   		<Opt_sites />
-		<Opt />
+
      	<Sites />
       </div>
 )
