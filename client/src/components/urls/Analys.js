@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BarChart from '../parts/Barchart' ;
 import './analys.css';
 import option from './option.png';
 import back from './back1.png';
@@ -39,14 +40,14 @@ class Analys extends Component{
   									<li id="head_b"> <a id="a_bl" href="#">квартал</a></li>
   									<li id="head_b"> <a id="a_bl" href="#">год</a></li>
   								<li id="head_op">	< img id="option" src={option}  alt="option"/></li>
-
-											<div id="datames"></div>
+	</div>							
+											<BarChart data={ [ 5, 10, 1, 3, 17, 25, 22, 12, 34, 25, 5, 10, 25, 30, 20, 30, 25, 14, 34, 13, 5, 10, 1, 3, 12, 25, 22, 12, 34, 40 ] } size={[250,300]} />
 											{/*< img className="img-responsive" id="back_i" src={back}  alt="bacck"/>*/}
 
 											
 
 
-									</div>
+								
 								</div>
 
 									<div className="col-sm-2 d_block" >
