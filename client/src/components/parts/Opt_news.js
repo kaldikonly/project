@@ -46,7 +46,10 @@ class Opt_news extends Component {
 				<div  id="first_row">
 					<i id="search_icon" className="fas fa-search"></i>
 					<input id="newssearch" value={this.state.mySearch} onChange={this.handleSetiChange} type="text" placeholder="Поиск..." />
-					<input type="text" id="daterange" value="01/01/2015 - 01/31/2015" />
+				 <div id="reportrange">
+   					 <span></span>
+
+						</div>
 					<button type="button" id="n_search" onClick={this.handleClick} >поиск</button>
 				</div>
 
