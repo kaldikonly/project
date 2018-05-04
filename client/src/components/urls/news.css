@@ -19,6 +19,7 @@
 	color:var(--blue);
 	float: right;
 	margin-right: 20px;
+	
 }
 .rec_one{
 	margin:0px;
@@ -45,6 +46,17 @@ display: block;
 	color: var(--grey);
 	letter-spacing: 1px;
 }
+#rec_rating{
+	display: block;
+	float: right;
+   margin: 20px 15px 0px 0px;
+   left: 120px;
+	color: var(--grey);
+	font-size: 14px;
+}
+#rec_rating:hover{
+	color: var(--blue);
+	}
 #rec_img{
 	position: relative;
 	float: left;

@@ -40,13 +40,15 @@ class News extends Component {
        											<li>
 											<span id="rec_name">{f_news.f_Category}</span>
 											<span id="rec_time"><Moment  locale="ru" format="Do MMM YYYY h:mm">{f_news.f_PublicationDate}</Moment> (<Moment locale="ru" fromNow>{f_news.f_PublicationDate}</Moment>)</span>
+
 									<fieldset className="rating" id="rate">
 									  <input type="radio" id="star5" name="rating" value="5" /><label className = "full" for="star5" title="Awesome - 5 "></label>
-    <input type="radio" id="star4" name="rating" value="4" /><label className = "full" for="star4" title="Pretty good - 4 "></label>
-    <input type="radio" id="star3" name="rating" value="3" /><label className = "full" for="star3" title="Meh - 3 "></label>
-    <input type="radio" id="star2" name="rating" value="2" /><label className = "full" for="star2" title="Kinda bad - 2 "></label>
-    <input type="radio" id="star1" name="rating" value="1" /><label className = "full" for="star1" title="1"></label>
+    <input type="radio" id="star4" name="rating" value="4" checked="true" /><label className = "full" for="star4" title="Pretty good - 4 "></label>
+    <input type="radio" id="star3" name="rating" value="3" checked="true"/><label className = "full" for="star3" title="Meh - 3 "></label>
+    <input type="radio" id="star2" name="rating" value="2" checked="true"/><label className = "full" for="star2" title="Kinda bad - 2 "></label>
+    <input type="radio" id="star1" name="rating" value="1" checked="true" /><label className = "full" for="star1" title="1"></label>
     </fieldset>
+    	<span id="rec_rating" >7.6</span>
     </li>
     				<li id="rec_li">
     					
