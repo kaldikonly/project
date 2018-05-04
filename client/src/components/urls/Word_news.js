@@ -4,21 +4,14 @@ import './word_news.css';
 class Word_news extends Component{
 	render(){
 		return (
-<<<<<<< HEAD
-<div className="col word_b">
-	<div className="word">
-		<div className="block3">
-			<span className="bl_txt">Олимпиада</span>
-			<span className="bl_count">19856</span>
-		</div>
-=======
+
 					<div className="col word_b">
 				<div className="word">
 							<div className="block3">
 								<span className="bl_txt">Олимпиада</span>
 								<span className="bl_count">19856</span>
 								</div>
->>>>>>> alex
+
 
 		<div className="block2">
 			<span className="bl_txt">Медаль</span>

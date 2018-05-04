@@ -3,7 +3,7 @@ import './opt_news.css';
 import axios from 'axios';
 import Stringify from 'react-stringify';
 
-<<<<<<< HEAD
+
 class Opt_news extends Component {
 
     constructor() {
@@ -51,86 +51,7 @@ class Opt_news extends Component {
                    
                     <div id="reportrange">
    					 <span></span>
-=======
-class Opt_news extends Component{
 
-	constructor(){
-	super();
-	this.state ={
-		seti :'false',
-		mySearch : ' '
-		}
-}
-
-handleSetiChange = (e) => {
-	
-	this.setState({
-		seti : e.target.checked,
-		mySearch : e.target.value
-	})
-	console.log(this.state.mySearch)
-}
-
-
-
-handleClick = (e) =>{
-
-	const arr ={
-		name: this.state.mySearch
-	}
-	axios
-	.post('/soon', { arr : JSON.stringify()})
-	.then(res => {
-		console.log(res);
-		console.log(res.data);
-		alert('YEEEESSSS');
-	})
-	.catch(error => {
-		console.log(error)
-	});
-	
-
-}
-
-
-
-
-	render(){
-		return (
-			<div className="col news_part" >
-				<div  id="first_row">
-					<i id="search_icon" className="fas fa-search"></i>
-					<input id="newssearch" value={this.state.mySearch} onChange={this.handleSetiChange} type="text" placeholder="Поиск..." />
-					<input type="text" id="daterange" value="01/01/2015 - 01/31/2015" />
-					<button type="button" id="n_search" onClick={this.handleClick} >поиск</button>
-				</div>
-
-				<div id="filter_table">
-					<li className="text-center"><h4 id="fil_cho">выберите фильтр</h4></li>
-
-						<li ><label className="containeree">По тональности
-							 <input id="tone_r" type="checkbox" />
-							<span className="checkmark"></span>
-							</label>
-						</li>
-
-						<li >
-							<label className="containeree">По источникам
- 							 	<input id="where_r" type="checkbox" />
-								<span className="checkmark"> </span>
-							</label>
-						</li>
-
-							<li ><label className="containeree">По авторам
-  									<input id="author_r" type="checkbox" />
-  									<span className="checkmark">
-  							</span>
-								</label></li>
-
-							<li id="opt" className="text-center"><a id="den" href="#">отмена</a>
-								<a id="conf" href="#">ок</a></li>
-
->>>>>>> alex
 						</div>
                     <button type="button" id="n_search" onClick={this.handleClick}>поиск</button>
                 </div>
