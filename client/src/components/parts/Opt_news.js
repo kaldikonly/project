@@ -3,7 +3,6 @@ import './opt_news.css';
 import axios from 'axios';
 import Stringify from 'react-stringify';
 
-<<<<<<< HEAD
 class Opt_news extends Component {
 
     constructor() {
@@ -41,60 +40,6 @@ class Opt_news extends Component {
     }
 
 
-    render() {
-        return (
-            <div className="col news_part">
-                <div id="first_row">
-                    <i id="search_icon" className="fas fa-search"></i>
-                    <input id="newssearch" value={this.state.mySearch} onChange={this.handleSetiChange} type="text"
-                           placeholder="Поиск..."/>
-                   
-                    <div id="reportrange">
-   					 <span></span>
-=======
-class Opt_news extends Component{
-
-	constructor(){
-	super();
-	this.state ={
-		seti :'false',
-		mySearch : ' '
-		}
-}
-
-handleSetiChange = (e) => {
-	
-	this.setState({
-		seti : e.target.checked,
-		mySearch : e.target.value
-	})
-	console.log(this.state.mySearch)
-}
-
-
-
-handleClick = (e) =>{
-
-	const arr ={
-		name: this.state.mySearch
-	}
-	axios
-	.post('/soon', { arr : JSON.stringify()})
-	.then(res => {
-		console.log(res);
-		console.log(res.data);
-		alert('YEEEESSSS');
-	})
-	.catch(error => {
-		console.log(error)
-	});
-	
-
-}
-
-
-
-
 	render(){
 		return (
 			<div className="col news_part" >
@@ -130,45 +75,18 @@ handleClick = (e) =>{
 							<li id="opt" className="text-center"><a id="den" href="#">отмена</a>
 								<a id="conf" href="#">ок</a></li>
 
->>>>>>> alex
-						</div>
+
+					
                     <button type="button" id="n_search" onClick={this.handleClick}>поиск</button>
                 </div>
 
-                <div id="filter_table">
-                    <li className="text-center"><h4 id="fil_cho">выберите фильтр</h4></li>
-
-                    <li><label className="containeree">По тональности
-                        <input id="tone_r" type="checkbox"/>
-                        <span className="checkmark"></span>
-                    </label>
-                    </li>
-
-                    <li>
-                        <label className="containeree">По источникам
-                            <input id="where_r" type="checkbox"/>
-                            <span className="checkmark"> </span>
-                        </label>
-                    </li>
-
-                    <li><label className="containeree">По авторам
-                        <input id="author_r" type="checkbox"/>
-                        <span className="checkmark">
-  							</span>
-                    </label></li>
-
-                    <li id="opt" className="text-center"><a id="den" href="#">отмена</a>
-                        <a id="conf" href="#">ок</a></li>
-
-                </div>
-
-                <div className="row wow" id="fil_row">
+      			<div className="row wow" id="fil_row">
                     <a id="clear_all" href="#">очистить все</a>
                     <a id="fil_add" href="#">Добавить фильтр</a>
                     <a id="tone_f" href="#">тональность</a>
                     <a id="who_f" href="#">источники</a>
                     <a id="author_f" href="#">авторы</a>
-
+                   </div>
                     <div id="tone_op">
                         <li className="text-center"><h4 id="fil_cho">выберите тональность</h4></li>
                         <li className="rainee"><label className="containeree">негативная
@@ -195,6 +113,7 @@ handleClick = (e) =>{
                             <span className="checkmark">
   							</span>
                         </label></li>
+                    
                     </div>
 
                     <div id="who_option">
@@ -258,7 +177,7 @@ handleClick = (e) =>{
 
                     </div>
                 </div>
-            </div>
+          
             
         );
     }
