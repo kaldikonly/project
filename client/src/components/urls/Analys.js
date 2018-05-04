@@ -39,7 +39,12 @@ class Analys extends Component{
   									<li id="head_b"> <a id="a_bl" href="#">квартал</a></li>
   									<li id="head_b"> <a id="a_bl" href="#">год</a></li>
   								<li id="head_op">	< img id="option" src={option}  alt="option"/></li>
+
+											<div id="datames"></div>
+											{/*< img className="img-responsive" id="back_i" src={back}  alt="bacck"/>*/}
+
 											
+
 
 									</div>
 								</div>
@@ -357,6 +362,7 @@ class Analys extends Component{
 
 		 </div>						
 </div>
+
 						</div>
 
 						);

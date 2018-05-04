@@ -545,7 +545,6 @@ margin-right: 130px;
 	float: right;
 	font-size: 14px;
 	color: black
-	fw
 
 }
 #с_had:hover{
@@ -571,4 +570,17 @@ margin-right: 130px;
 }
 #white_{
 	color: white;
+}
+
+/* ----------------------------- D3.js data driven */
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+			
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
 }
