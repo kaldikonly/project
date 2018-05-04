@@ -661,6 +661,17 @@ border-radius:15px 15px 15px 15px;
 	text-decoration: underline;
 	color: var(--blue);
 }
+/* d3js graphiks visualisation */
+
+rect:hover{
+	fill: #F2C94C;
+}
+rect:hover text{
+	fill: white;
+}
+
+
+
 
 /*
 		Slider input checked -----------------------
