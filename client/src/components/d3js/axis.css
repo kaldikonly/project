@@ -1,0 +1,15 @@
+.Axis path,
+.Axis line {
+  stroke: #E0E0E0;
+}
+
+.Axis text {
+  font-size: 11px;
+  fill: black;
+  
+}
+
+.Axis-Bottom text {
+	
+  text-anchor: start;
+}

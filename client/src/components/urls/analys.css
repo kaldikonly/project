@@ -572,15 +572,10 @@ margin-right: 130px;
 	color: white;
 }
 
+#chart_div{
+	margin-top: 0px;
+	padding-top: 10px;
+	margin-left: 50px; 
+}
 /* ----------------------------- D3.js data driven */
 
-.axis path, .axis line {
-	fill: none;
-	stroke: black;
-	shape-rendering: crispEdges;
-}
-			
-.axis text {
-	font-family: sans-serif;
-	font-size: 11px;
-}

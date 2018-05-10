@@ -15,3 +15,11 @@
 
 
 Axios (Возможно использовать Unirest) 
+
+--------------------- 4.05 
+		Новые компоненты 
+		npm i d3-axis d3-interpolate d3-scale d3-selection --save
+		"d3-axis": "^1.0.8",
+    "d3-interpolate": "^1.1.6",
+    "d3-scale": "^2.0.0",
+    "d3-selection": "^1.3.0",
