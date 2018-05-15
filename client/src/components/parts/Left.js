@@ -9,7 +9,7 @@ import logo from './logo1.png';
 class Left extends Component{
 	render(){
 		return (
-			<div className="col-sm-2 menu" id="menus">
+			<div className="container menu" id="menus">
 			<div id="first_block">	
 			<a id="name_a" href="/" ><img src={logo} className="logo"  /></a>
 			</div>

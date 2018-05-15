@@ -1,7 +1,7 @@
 .news_part{
 	background-color: white;
-	position: relative;
-	margin-left:210px;
+	/*position: relative;*/
+	/*margin-left:210px;*/
 	padding-left: 0px;
 
 }
@@ -385,3 +385,10 @@ height: 26px;
   max-width: 600px;
 
 	}
+
+/* Временные стили */
+
+.main_content{
+	padding: 0;
+	background: var(--halfg);
+}

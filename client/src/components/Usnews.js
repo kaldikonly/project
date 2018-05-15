@@ -6,11 +6,22 @@ import Opt_news from './parts/Opt_news';
 
 
 const Usnews = () => (
-		<div >
-  		<Left />
-  		<Opt_news />
-     	<News />
-     	<Word_news />
-      </div>
+    <div className="container-fluid">
+        <div className="row">
+            <Left/>
+            <div className="col main_content">
+                <Opt_news/>
+                <div className="container">
+                    <div className="row">
+                        <News/>
+                        <Word_news/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 )
 export default Usnews;
