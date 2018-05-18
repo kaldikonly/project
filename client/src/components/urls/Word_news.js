@@ -6,7 +6,6 @@ class Word_news extends Component{
 		return (
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 
             <div className="container shadow-sm ns_important_words" id="block_important_words">
                 <div className="header_block_important_words">
@@ -14,38 +13,6 @@ class Word_news extends Component{
                         Топ 12 слов
                     </span>
                 </div>
-=======
-<div className="col word_b shadow-sm p-3 mb-5 bg-white rounded">
-	<div className="word">
-		<div className="block3">
-			<span className="bl_txt">Олимпиада</span>
-			<span className="bl_count">19856</span>
-		</div>
-
-
-		<div className="block2">
-			<span className="bl_txt">Медаль</span>
-			<span className="bl_count">19256</span>
-		</div>
-
-
-		<div className="block4">
-			<span className="bl_txt">Летняя</span>
-			<span className="bl_count">15776</span>
-			</div>
-
-
-
-		<div className="block5">
-			<span className="bl_txt">Наши</span>
-			<span className="bl_count">11246</span>
-			</div>
-
-
-
-
-            <div className="col ns_important_words" id="block_important_words">
->>>>>>> parent of da298f0... Работа над структурой html и css
                 <div className="important_word">
                     <div className="important_word_container">
                         <span className="important_word_name">Олимпиада</span>
@@ -204,7 +171,6 @@ class Word_news extends Component{
 
             </div>
 
-<<<<<<< HEAD
 =======
 <div className="col word_b">
 	<div className="word">
@@ -268,21 +234,6 @@ class Word_news extends Component{
 	</div>
 
 >>>>>>> parent of 971eda2... Блок 12 важных слов
-=======
-		</div>
-	</div>
-
-    // // <div className="col ns_important_words" id="block_important_words">
-    // //      <div className="important_word">
-    //             <span className="important_word_name">Призеры</span>
-    //             <span className="important_word_quantity">9856</span>
-    //             <div className="progress">
-    //                 <div className="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-    //     aria-valuemax="100"></div>
-    //             </div>
-    //         </div>
-    // // </div>
->>>>>>> parent of da298f0... Работа над структурой html и css
 
 	);
 	}

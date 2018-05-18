@@ -1,101 +1,5 @@
-<<<<<<< HEAD
-=======
-.word{
-	background-color: white;
-	margin:5px 10px 0px -10px;
-	height: 500px;
-	overflow-y: hidden;
-
-	font-family: "Roboto";
-
-}
-.word_b{
-	background-color: var(--halfg);
-	height: 100vh;
-}
-.block3{
-	display: block;
-	margin-top: 10px;
-}
-.block2{
-	display: block;
-	margin-top: 40px;
-	}
-.block2:after{
-	display: block;
-	content: "";
-	position: relative;
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 5px;
-	background-color: var(--blue);
-	transform: translateY(20px);
-		border-radius:15px 15px 15px 15px;
-}
-.block3:after{
-	display: block;
-	content: "";
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 5px;
-	background-color: var(--blue);
-	transform: translateY(20px);
-		border-radius:15px 15px 15px 15px;
-}
-.block4{
-	display: block;
-	margin-top: 40px;
-	
-}
-.block4:after{
-	display: block;
-	content: "";
-	margin-left: 10px;
-	width: 170px;
-	height: 5px;
-	background-color: var(--blue);
-	transform: translateY(20px);
-		border-radius:15px 15px 15px 15px;
-}.block5{
-	display: block;
-	margin-top: 40px;
-	
-}
-.block5:after{
-	display: block;
-	content: "";
-	margin-left: 10px;
-	width: 120px;
-	height: 5px;
-	background-color: var(--blue);
-	transform: translateY(20px);
-		border-radius:15px 15px 15px 15px;
-}
-.bl_txt{
- text-transform: capitalize;
- float: left;
- display: block;
- color: black;
-
- margin-left: 10px;
-}
-.bl_count{
-font-size: 10px;
- float: right;
- display: block;
- margin-right: 15px;
- color: var(--grey);
- background-color: var(--halfg);
- 	border: 1px solid var(--halfg);
-	border-radius:15px 15px 15px 15px;
-	padding:0px 10px 0px 10px;
-
-}
-
-/* Новыйе слтили 10.05.2018 */
-
->>>>>>> parent of da298f0... Работа над структурой html и css
 .ns_important_words{
+	width: 265px;
 	padding: 15px;
 	border-radius: 2px;
 	background: #ffffff;
@@ -144,13 +48,10 @@ font-size: 10px;
 .important_word .progress-bar{
 	width: 50%;
 	background-color:  var(--blue);
-<<<<<<< HEAD
 }
 
 .none{
 	display: none;
 =======
 >>>>>>> parent of 971eda2... Блок 12 важных слов
-=======
->>>>>>> parent of da298f0... Работа над структурой html и css
 }
