@@ -294,10 +294,10 @@ list-style-type: none;
 	color: white;
 	background-color: var(--blue);
 	font-weight: normal;
-	border:0;
 	margin-right: 15px;
 	font-size: 14px;
 	border: #005cbf;
+	line-height: 0;
 }
 .blue_btn:hover{
 	background-color: #0069D9;
