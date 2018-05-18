@@ -27,6 +27,7 @@ class News extends Component {
     return (
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
       <div className="col main_state">
@@ -40,6 +41,11 @@ class News extends Component {
               </div>
 
           </div>
+=======
+    				
+    			
+      <div className="col-sm-8  main_state">
+>>>>>>> parent of da298f0... Работа над структурой html и css
 =======
     				
     			
