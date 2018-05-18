@@ -511,6 +511,7 @@ margin-right:20px;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Новые стили 17.05.2018 */
 
 .update_news{
@@ -533,6 +534,12 @@ margin-right:20px;
 /*
  ----------------------------------------word_news
 */
+=======
+/*
+ ----------------------------------------word_news
+*/
+
+>>>>>>> parent of da298f0... Работа над структурой html и css
 
 
 
@@ -542,7 +549,10 @@ margin-right:20px;
 
 
 
+<<<<<<< HEAD
 
+>>>>>>> parent of da298f0... Работа над структурой html и css
+=======
 >>>>>>> parent of da298f0... Работа над структурой html и css
 .block3{
 	display: block;
@@ -556,6 +566,7 @@ margin-right:20px;
 .block2:after{
 	display: block;
 	content: "";
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of 971eda2... Блок 12 важных слов
 	position: relative;
@@ -571,6 +582,8 @@ margin-right:20px;
 	top: 7px;
 	background-size: 18px 18px;
 =======
+=======
+>>>>>>> parent of da298f0... Работа над структурой html и css
 	position: relative;
 	margin-left: 10px;
 	
@@ -643,5 +656,8 @@ font-size: 10px;
 	border-radius:15px 15px 15px 15px;
 	padding:0px 10px 0px 10px;
 
+<<<<<<< HEAD
+>>>>>>> parent of da298f0... Работа над структурой html и css
+=======
 >>>>>>> parent of da298f0... Работа над структурой html и css
 }
