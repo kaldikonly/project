@@ -12,6 +12,7 @@
 	margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 .ns_important_words .important_word:last-child{
 	margin-bottom: 0px;
 }
@@ -51,4 +52,6 @@
 
 .none{
 	display: none;
+=======
+>>>>>>> parent of 971eda2... Блок 12 важных слов
 }

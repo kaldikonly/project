@@ -509,10 +509,38 @@ margin-right:20px;
 	margin-left: 5px;
 }
 
+<<<<<<< HEAD
 /* Новые стили 17.05.2018 */
 
 .update_news{
 	padding-left: 37px;
+=======
+/*
+ ----------------------------------------word_news
+*/
+.word{
+	background-color: white;
+	margin:5px 0px 0px 5px;
+
+	height: 500px;
+	overflow-y: hidden;
+	box-shadow: 1px 1px 10px  rgba(0,0,0,0.5);
+	font-family: "Roboto";
+
+}
+.block3{
+	display: block;
+	margin-top: 10px;
+}
+.block2{
+	display: block;
+	margin-top: 40px;
+	
+}
+.block2:after{
+	display: block;
+	content: "";
+>>>>>>> parent of 971eda2... Блок 12 важных слов
 	position: relative;
 }
 
