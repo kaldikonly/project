@@ -21,10 +21,11 @@ class News extends Component {
     .then( f_news => this.setState( {f_news}, () => console.log('News fetched..', f_news)));
    }
 
-   function
+   function 
   render() {
 
     return (
+<<<<<<< HEAD
 
 
       <div className="col main_state">
@@ -38,6 +39,11 @@ class News extends Component {
               </div>
 
           </div>
+=======
+    				
+    			
+      <div className="col-sm-8  main_state">
+>>>>>>> parent of da298f0... Работа над структурой html и css
       	<div className="reason1 ">
 			<a id="redo"><i className="fas fa-redo-alt"></i><span>25</span></a>
 									<i id="n_icon" className="fas fa-list"></i>
@@ -61,7 +67,7 @@ class News extends Component {
     	<span id="rec_rating" >7.6</span>
     </li>
     				<li id="rec_li">
-
+    					
 						<img id="rec_img" src={img2} alt="first" />
 						<h2 id="rec_hd">{f_news.f_Title.split(" ",8).join(" ")}</h2>
 						<p id="rec_text">{f_news.f_Fulltext.slice(0, 225)}
@@ -79,14 +85,14 @@ class News extends Component {
 			<li id="more"><a  href="#">подробнее</a></li>
 			<li id="smile" ><img id="smile_a" src={smile} alt="first" /></li>
 			</ul>
-
+								
 				</div>
 	)}
         </div>
 
+   
 
-
-
+      
 
 
 

@@ -5,10 +5,10 @@ import Sites from './urls/Sites';
 
 
 const Ussites = () => (
-    <div>
-        <Left/>
-        <Opt_sites/>
-        <Sites/>
-    </div>
+		<div >
+  		<Left />
+  		<Opt_sites />
+     	<Sites />
+      </div>
 )
 export default Ussites;
