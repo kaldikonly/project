@@ -1,8 +1,7 @@
 .news_part{
 	background-color: white;
-	/*position: relative;*/
-	/*margin-left:210px;*/
 	padding-left: 0px;
+	margin-bottom: 10px;
 
 }
 #n_first{
@@ -391,4 +390,8 @@ height: 26px;
 .main_content{
 	padding: 0;
 	background: var(--halfg);
+}
+
+.main_content .row{
+	margin-right: 0;
 }

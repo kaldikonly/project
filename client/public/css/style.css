@@ -297,12 +297,13 @@ list-style-type: none;
 	border:0;
 	margin-right: 15px;
 	font-size: 14px;
+	border: #005cbf;
+}
+.blue_btn:hover{
+	background-color: #0069D9;
 }
 #up_button button:last-child{
 	margin-right: 0;
-}
-.blue_btn:hover{
-	background-color: var(--light-blue);
 }
 .gray_btn{
 	height: 30px;
