@@ -1,5 +1,10 @@
 .news_part{
 	background-color: white;
+<<<<<<< HEAD
+=======
+	position: relative;
+	margin-left:210px;
+>>>>>>> parent of da298f0... Работа над структурой html и css
 	padding-left: 0px;
 	margin-bottom: 10px;
 
@@ -383,6 +388,7 @@ height: 26px;
 .daterangepicker .calendar {
   max-width: 600px;
 
+<<<<<<< HEAD
 	}
 
 /* Временные стили */
@@ -395,3 +401,6 @@ height: 26px;
 .main_content .row{
 	margin-right: 0;
 }
+=======
+	}
+>>>>>>> parent of da298f0... Работа над структурой html и css
