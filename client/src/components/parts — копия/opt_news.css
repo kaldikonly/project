@@ -1,9 +1,10 @@
 .news_part{
 	background-color: white;
-	/*position: relative;*/
-	/*margin-left:210px;*/
+	position: relative;
+	margin-left:0px;
 	padding-left: 0px;
-
+	
+	
 }
 #n_first{
 	height: 25px;
@@ -17,24 +18,14 @@
 	float: right;
 	background-color: var(--blue);
 	margin-right: 20px;
-	margin-top:7px;
+	margin-top:2px;
 	text-transform: capitalize;
 	font-weight: lighter;
 	font-size: 14px;
 
 }
-
-#newssearch{
-	margin-top: 7px;
-	margin-left:10px;
-	margin-right: 10px;
-	border:none;
-	font-size: 14px;
-	width: 68%;
-}
-
 #daterange{
-	margin-top: 7px;
+	margin-top: 2px;
 border-radius:15px 15px 15px 15px;
 width:200px;
 text-align: center;
@@ -47,8 +38,8 @@ Filter table options
 #filter_table{
 	display: none;
 	position: fixed;
-	top: 75px;
-	left:255px;
+	top: 73px;
+	left:240px;
 	z-index: 15;
 	width: 250px;
 	height:170px;
@@ -102,7 +93,7 @@ padding-bottom:10px;
 position: fixed;
 display: none;
 	top: 73px;
-	left:275px;
+	left:375px;
 	z-index: 15;
 	width: 250px;
 	height:170px;
@@ -359,36 +350,15 @@ margin-right:20px;
 	margin-right: 10px;
 
 	}
+#first_row{
 
+
+	padding-bottom: 3px;
+	border-bottom: 1px solid var(--halfg);
+	height: 31px;
+	background-color: white;
+}
 #search_icon{
 	color: var(--blue);
 	margin-left: 5px;
-}
-
-/* Daterange*/
-#reportrange{
-
-background: #fff;
- cursor: pointer;
-  padding: 5px 10px;
-   border: 1px solid #ccc;
-   	margin-top: 7px;
-border-radius:15px 15px 15px 15px;
-width:200px;
-text-align: center;
-float: right;
-margin-right: 30px;
-height: 26px;
-}
-
-.daterangepicker .calendar {
-  max-width: 600px;
-
-	}
-
-/* Временные стили */
-
-.main_content{
-	padding: 0;
-	background: var(--halfg);
 }

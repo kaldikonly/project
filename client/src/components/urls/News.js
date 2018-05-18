@@ -28,16 +28,6 @@ class News extends Component {
 
 
       <div className="col main_state">
-          <div className="nav_news">
-              <div className="flex_nav_news">
-                  <div className="left_block">
-                      <button type="button" className="blue_btn btn-primary update_news">25</button>
-                      <button  type="button" className="blue_btn go_to_analytics">Аналитика</button>
-                  </div>
-                  <div className="right_block"></div>
-              </div>
-
-          </div>
       	<div className="reason1 ">
 			<a id="redo"><i className="fas fa-redo-alt"></i><span>25</span></a>
 									<i id="n_icon" className="fas fa-list"></i>

@@ -13,15 +13,15 @@ class Opt_sites extends Component {
                                 <input id="sitesSearch" type="text" placeholder="Search..."/></label>
                         </div>
                         <div id="btn_container">
-                            <button id="blue_btn" className="blue_btn" type="button">Поиск</button>
-                            <button id="blue_btn" className="blue_btn export_btn" type="button">Экспорт</button>
-                            <button id="gray_btn" className="gray_btn" type="button">Добавить сайт</button>
+                            <button id="blue_btn" class="blue_btn" type="button">Поиск</button>
+                            <button id="blue_btn" class="blue_btn export_btn" type="button">Экспорт</button>
+                            <button id="gray_btn" class="gray_btn" type="button">Добавить сайт</button>
                         </div>
                     </div>
                 </div>
                 <div id="filter_part">
-                    <button id="clear_filter" className="gray_btn clear_filter">Очисить все</button>
-                    <button id="add_filter" className="blue_btn add_filter">Добавить фильтр</button>
+                    <button id="clear_filter" class="gray_btn clear_filter">Очисить все</button>
+                    <button id="add_filter" class="blue_btn add_filter">Добавить фильтр</button>
 
                     <a id="filter_record" href=""><span id="filter_word"></span><span id="or">OR</span></a>
                     <a id="band" href="#"><span>AND</span></a>

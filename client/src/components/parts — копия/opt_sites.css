@@ -1,0 +1,262 @@
+.main_part{
+	background-color: white;
+	margin:0px;
+	padding:0px;
+	margin-left: 94px;
+
+}
+#first_row{
+	margin-left: 1px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid var(--halfg);
+	height: 31px;
+
+}
+#search{
+
+margin-top: 5px;
+margin-left:5px;
+border:none;
+}
+#search_icon{
+	color: var(--blue);
+	margin-left: 5px;
+}
+#up_button{
+	float: right;
+	margin-right: 20px;
+	margin-top: 3px;
+	font-size: 17px;
+}
+#top_button{
+	
+	border: 1px solid var(--blue);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 10px 0px 10px;
+	color: white;
+	background-color: var(--blue);
+	text-transform: capitalize;
+	font-weight: normal;
+	text-decoration: none;
+}
+#top_button:hover{
+	border: 1px solid var(--dark);
+	background-color: var(--dark);
+}
+#add_site{
+	border: 1px solid var(--halfg);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 10px 0px 10px;
+	color: var(--grey);
+	background-color: var(--halfg);
+	text-transform: capitalize;
+	font-weight: normal;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
+#top_save{
+	margin-right: 10px;
+}
+
+#main_choose{
+	border-bottom: 1px solid var(--halfg);
+		margin-left: 1px;
+		height: 23px;
+
+}
+
+#add_button{
+	position: relative;
+	margin-left: 3px;
+	border: 1px solid var(--blue);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 10px 0px 10px;
+	color: white;
+	background-color: var(--blue);
+	text-transform: capitalize;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 16px;
+}
+#add_button:hover{
+	border: 1px solid var(--dark);
+	background-color: var(--dark);
+}
+#add_text{
+	margin-left: 5px;
+}
+#plus_add{
+	margin-top: -2px;
+	height: 15px;
+	width: 17px;
+}
+#filter_part{
+		margin-left: 1px;
+margin-top: 3px;
+padding-bottom: 5px;
+border-bottom: 1px solid var(--halfg);
+height: 25px;
+
+
+}
+#add_button:hover #filter_icon{
+	background-color: var(--dark);
+}
+#filter_icon{
+	color: white;
+	margin-right: 2px;
+	background-color: var(--blue);
+	border-radius: 80%;
+	padding-bottom: 2px;
+	width: 15px;
+	height: 15px;
+}
+#filter_record{
+	display: none;
+	position: relative;
+	border: 1px solid var(--blue);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 10px 0px 10px;
+	width: 200px;
+	color: white;
+	background-color: var(--blue);
+	text-transform: capitalize;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+#filter_word{
+	margin-left: 75px;
+text-transform: capitalize;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding-right: 100px;
+
+}
+#filter_word:after{
+	position: relative;
+	
+}
+#or{
+position: relative;
+left: 10px;
+ border: 0px solid var(--white);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 3px 0px 3px;
+	font-size: 13px;
+	color: var(--blue);
+	background-color: var(--white);
+	text-transform: capitalize;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin-right: 2px;
+
+}
+#band{
+	display: none;
+	position: relative;
+	border: 1px solid var(--blue);
+	border-radius:15px 15px 15px 15px;
+	padding:0px 10px 0px 10px;
+	font-size: 13px;
+	color: white;
+	background-color: var(--blue);
+	text-transform: capitalize;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+#filter_option{
+
+	position: fixed;
+	width: 80px;
+	display:none;
+	box-shadow: 1px 1px 10px  rgba(0,0,0,0.5);
+	background-color: white;
+	list-style-type: none;
+	margin-top:5px;
+	padding:0;
+	z-index: 1;
+	left: 180px;
+
+	
+
+}
+#filter_option:before{
+	position: absolute;
+	content: " ";
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	border-left: 10px solid transparent;
+  	border-right: 10px solid transparent;
+  	border-bottom: 10px solid white;
+	top: -5px;
+	left: 10px;
+	z-index: -1;
+	transform: rotate(45deg);
+	
+}
+.filter_text{
+	position: relative;
+	left: 5px;
+	text-transform: capitalize;
+	color: black;
+}
+.info_list{
+	margin-left: 15px;
+	padding-right: 10px;
+	height: 20px;
+	float: left;
+	border-right: 1px solid var(--halfg);
+	text-transform: capitalize;
+	}
+.info_list a{
+color: var(--grey);
+}
+#icon_bars{
+	color: var(--blue);
+}
+#triangle{
+	margin-left: 5px;
+	color: var(--blue);
+
+}
+#number1{
+	width: 40px;
+	}
+#number2{
+width: 40px;
+	}
+#number3{
+	width: 170px;
+
+}
+#number4{
+	width: 70px;
+}
+#number5{
+	width: 50px;
+}
+#number6{
+	width: 120px;
+	}
+#number7{
+	width: 100px;
+	}
+#number8{
+	width: 100px;
+}
+#number9{
+	width: 100px;
+}	
+#number10{
+	position: relative;
+	left: 10px;
+}
+

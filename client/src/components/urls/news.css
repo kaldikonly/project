@@ -483,9 +483,15 @@ margin-right:20px;
 
 	}
 .reason1{
+
+	
 	background-color: white;
+	margin-top: 5px;
 	height: 30px;
 	padding-right: 0px;
+
+	
+
 }
 #n_icon{
 	float: right;
@@ -507,22 +513,4 @@ margin-right:20px;
 }
 #redo span{
 	margin-left: 5px;
-}
-
-/* Новые стили 17.05.2018 */
-
-.update_news{
-	padding-left: 37px;
-	position: relative;
-}
-
-.update_news::before{
-	content: "";
-	width: 18px;
-	height: 18px;
-	position: absolute;
-	background-image: url(img/baseline_refresh_white_18dp.png);
-	left: 14px;
-	top: 7px;
-	background-size: 18px 18px;
 }
