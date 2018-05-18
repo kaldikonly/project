@@ -1,28 +1,40 @@
-.word{
-	background-color: white;
-	margin:5px 10px 0px -10px;
-	height: 500px;
-	overflow-y: hidden;
-
-	font-family: "Roboto";
-}
-
-/* Новыйе слтили 10.05.2018 */
-
 .ns_important_words{
 	width: 265px;
 	padding: 15px;
 	border-radius: 2px;
+	background: #ffffff;
+}
+.header_important_words{
+	margin-bottom: 7px;
+	border-bottom: solid 1px var(--grey);
+	padding-bottom: 10px;
+	line-height: 19px;
+}
+
+.important_word{
+	margin-bottom: 8px;
+}
+
+.important_word:last-child{
+	margin-bottom: 0;
+}
+
+.header_text_important_words{
+	display: block;
+	color: var(--black);
 }
 
 .important_word_container{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 10px;
+	align-items: center;
 }
 
 .important_word_name{
 	font-size: 14px;
 	color: var(--black);
+	line-height: 17px;
 }
 
 .important_word_quantity{

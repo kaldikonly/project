@@ -6,8 +6,12 @@ class Word_news extends Component{
 		return (
 
 
-            <div className="container ns_important_words" id="block_important_words">
-
+            <div className="container ns_important_words shadow-sm" id="block_important_words">
+                <div className="header_important_words">
+                    <span className="header_text_important_words">
+                        Топ 12 слов
+                    </span>
+                </div>
                 <div className="important_word">
                     <div className="important_word_container">
                         <span className="important_word_name">Олимпиада</span>
