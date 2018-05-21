@@ -1,8 +1,6 @@
-.main_state{
-	background-color: var(--halfg);
-}
+
 .reason{
-	margin-top: 5px;
+	margin-bottom: 15px;
 	height: 270px;
 	background-color: white;
 	
@@ -15,37 +13,13 @@
 	margin-top: 10px;
 }
 #rate{
-	margin-top: 12px;
 	color:var(--blue);
-	float: right;
-	margin-right: 20px;
-	
 }
 .rec_one{
 	margin:0px;
 	margin-top: 10px;
 }
-#rec_name{
-	width: 140px;
-	margin-top: 10px;
-display: block;
-	float: left;
-	font-size: 20px;
-	color: var(--blue);
-	text-transform: capitalize;
-	
-	margin-left: 25px;
-	
-}
 
-#rec_time{
-	position: relative;
-	top: 15px;
-	
-	font-size: 12px;
-	color: var(--grey);
-	letter-spacing: 1px;
-}
 #rec_rating{
 	display: block;
 	float: right;
@@ -482,38 +456,9 @@ margin-right:20px;
 	margin-right: 10px;
 
 	}
-.reason1{
 
-	
-	background-color: white;
-	margin-top: 5px;
-	height: 30px;
-	padding-right: 0px;
 
-	
 
-}
-#n_icon{
-	float: right;
-	margin: 7px 15px 0px 15px;
-}
-#page_m{
-	float: right;
-	margin-top: 5px;
-}
-#redo{
-	border: 1px solid var(--blue);
-	border-radius:15px 15px 15px 15px;
-	padding:0px 10px 0px 10px;
-	color: white;
-	float: left;
-	background-color: var(--blue);
-	margin-left: 5px;
-	margin-top: 3px;
-}
-#redo span{
-	margin-left: 5px;
-}
 
 /*	стили 18.05.2018	*/
 
@@ -521,6 +466,7 @@ margin-right:20px;
 	padding: 4px 25px;
 	background: #ffffff;
 	border-radius: 2px;
+	margin-bottom: 15px;
 }
 
 .nav_news_flex{
@@ -539,8 +485,59 @@ margin-right:20px;
 	background: none;
 	border: none;
 	padding: 0;
+	margin-right: 25px;
 }
 
-.next_news_page{
+.control_arrow button:last-child{
+	margin-right: 0px;
+}
+
+
+/*	стили 21.05.2018	*/
+
+.news_card{
+	background: #ffffff;
+	margin-bottom: 15px;
+	padding: 15px 25px 10px;
+}
+
+.news_card_flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+
+.rating > label:before{
+	font-size: 16px;
+	line-height: 15px;
+	margin: 0 5px 0 0 !important;
+	border-radius: 2px;
+}
+
+.rating input:first-child + label:before{
+	margin-right: 0px !important;
+}
+
+.heder_news{
+	font-size: 16px;
+	color: var(--blue);
+	text-transform: capitalize;
+	font-weight: 500;
 	margin-right: 25px;
+}
+
+.heder_news:hover{
+	text-decoration: none;
+}
+
+.publication_time{
+	font-size: 12px;
+	color: var(--grey);
 }

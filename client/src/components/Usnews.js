@@ -11,7 +11,7 @@ const Usnews = () => (
             <Left/>
             <div className="col main_content">
                 <Opt_news/>
-                <div className="container">
+                <div className="col">
                     <div className="row">
                         <News/>
                         <Word_news/>
