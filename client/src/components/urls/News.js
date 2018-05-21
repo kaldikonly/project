@@ -4,6 +4,8 @@ import smile from './smile.png';
 import prev from './icons/baseline-navigate_before-24px.svg';
 import next from './icons/baseline-navigate_next-24px.svg';
 import filter from './icons/baseline-filter_list-24px.svg';
+import face from './icons/baseline-mood-24px.svg';
+import refresh from './icons/baseline-refresh-24px.svg';
 import img2 from './img2.png';
 import Moment from 'react-moment';
 import 'moment/locale/ru';
@@ -34,7 +36,7 @@ class News extends Component {
                 <div className="col nav_news_card shadow-sm">
                     <div className="nav_news_flex">
                         <div className="left_container">
-                            <button className="blue_btn update_news">25</button>
+                            <button className="blue_btn update_news"><img src={refresh} alt=""/>25</button>
                             <button className="blue_btn update_news">Аналитика</button>
                         </div>
                         <div className="right_container">
@@ -66,7 +68,7 @@ class News extends Component {
                 <div className="news_card shadow-sm">
                     <div className="news_card_flex">
                         <div className="left-container">
-                            <a href="#" className="heder_news" id="rec_name">f_Category</a>
+                            <a href="#" className="source_name" id="rec_name">Название ресурса</a>
                             <span className="publication_time" id="rec_time"><Moment locale="ru"
                                                         format="Do MMM YYYY h:mm">f_PublicationDate</Moment> (<Moment
                                 locale="ru" fromNow>f_PublicationDate</Moment>)</span>
@@ -83,7 +85,44 @@ class News extends Component {
                                 className="full" htmlFor="star2" title="Kinda bad - 2 "></label>
                                 <input type="radio" id="star1" name="rating" value="1" checked="true"/><label
                                 className="full" htmlFor="star1" title="1"></label>
+                                <span className="rating_index" id="rec_rating">1</span>
                             </fieldset>
+                        </div>
+                    </div>
+
+                    <div className="news_body clearfix">
+
+                        <div className="news_text">
+                            <div className="news_text_container">
+                                <div className="img_container">
+                                    <img src={img2} alt=""/>
+                                </div>
+                                <a className="news_title_link" href="#">Заголовок новости</a>
+                                <p className="news_text">
+                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?
+                                    <span className="expand_text"> ...далее</span>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="footer_news_body">
+                        <div className="right_column">
+                            <img src={face} alt=""/>
+                        </div>
+                        <div className="left_column">
+
+                            <button className="news_btn news_card_more_info">
+                                Подробнее
+                            </button>
+                            <a className="news_card_link" href="#">
+                                <button className="news_btn news_card_read">
+                                    Читать
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +172,7 @@ class News extends Component {
                 </div>
 
 
-                {/*  test  21.05.12   */}
+                {/*  test end 21.05.12   */}
 
                 {this.state.f_news.map(f_news =>
                     <div className="reason">

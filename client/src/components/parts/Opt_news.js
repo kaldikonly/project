@@ -45,7 +45,7 @@ class Opt_news extends Component {
 
             <div className="navbar sticky-top news_part">
 
-                <div id="first_row">
+                <div id="first_row row">
                     <i id="search_icon" className="fas fa-search"></i>
                     <input id="newssearch" value={this.state.mySearch} onChange={this.handleSetiChange} type="text"
                            placeholder="Поиск..."/>
