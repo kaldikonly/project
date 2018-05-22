@@ -26,9 +26,9 @@ app.use(bodyParser.urlencoded({ extended: true}));
 
 //Creating Connection to Database
 const con = mysql.createConnection({
-  host: "momproject.cjx455lgw86o.us-east-2.rds.amazonaws.com",
-  user: "dbadmin",
-  password: "MOMProject",
+  host: "192.168.44.245",
+  user: "frontend",
+  password: "momproject",
   database: "NewsOne"
   
 });

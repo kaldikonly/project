@@ -452,6 +452,10 @@ margin-right:20px;
 	align-items: center;
 }
 
+.left_container{
+	display: flex;
+}
+
 .left_container .blue_btn:last-child{
 	margin-right: 0;
 }
