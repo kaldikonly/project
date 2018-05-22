@@ -22,6 +22,10 @@ body{
 	margin:0;
 }
 
+.first{
+	padding: 0;
+}
+
 /*
 Main part -------------------------------------
 */
@@ -722,3 +726,8 @@ input:checked + .slider:before {
 }
 
 
+/*Временные стили 22.05.2018*/
+
+.body_pages{
+	padding-right: 15px;
+}

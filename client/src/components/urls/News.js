@@ -61,118 +61,67 @@ class News extends Component {
                         </div>
                     </div>
                 </div>
+            <div className="news_card shadow-sm">
+            <div className="news_card_flex">
+            <div className="left-container">
+            <a href="#" className="source_name" id="rec_name">Название ресурса</a>
+        <span className="publication_time" id="rec_time"><Moment locale="ru"
+        format="Do MMM YYYY h:mm">f_PublicationDate</Moment> (<Moment
+        locale="ru" fromNow>f_PublicationDate</Moment>)</span>
+        </div>
+        <div className="right_container">
+            <fieldset className="rating" id="rate">
+            <input type="radio" id="star5" name="rating" value="5"/>
+            <label className="full" htmlFor="star5" title="Awesome - 5 "></label>
+            <input type="radio" id="star4" name="rating" value="4" checked="true"/><label
+        className="full" htmlFor="star4" title="Pretty good - 4 "></label>
+            <input type="radio" id="star3" name="rating" value="3" checked="true"/><label
+        className="full" htmlFor="star3" title="Meh - 3 "></label>
+            <input type="radio" id="star2" name="rating" value="2" checked="true"/><label
+        className="full" htmlFor="star2" title="Kinda bad - 2 "></label>
+            <input type="radio" id="star1" name="rating" value="1" checked="true"/><label
+        className="full" htmlFor="star1" title="1"></label>
+            <span className="rating_index" id="rec_rating">1</span>
+            </fieldset>
+            </div>
+            </div>
 
+            <div className="news_body clearfix">
 
-                {/*  test  21.05.12   */}
+            <div className="news_text">
+            <div className="news_text_container">
+            <div className="img_container">
+            <img src={img2} alt=""/>
+            </div>
+            <a className="news_title_link" href="#">Заголовок новости</a>
+        <p className="news_text">
+            Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+        Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+        Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
+        Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?
+    <span className="expand_text"> ...далее</span>
+        </p>
+        </div>
 
-                <div className="news_card shadow-sm">
-                    <div className="news_card_flex">
-                        <div className="left-container">
-                            <a href="#" className="source_name" id="rec_name">Название ресурса</a>
-                            <span className="publication_time" id="rec_time"><Moment locale="ru"
-                                                        format="Do MMM YYYY h:mm">f_PublicationDate</Moment> (<Moment
-                                locale="ru" fromNow>f_PublicationDate</Moment>)</span>
-                        </div>
-                        <div className="right_container">
-                            <fieldset className="rating" id="rate">
-                                <input type="radio" id="star5" name="rating" value="5"/>
-                                    <label className="full" htmlFor="star5" title="Awesome - 5 "></label>
-                                <input type="radio" id="star4" name="rating" value="4" checked="true"/><label
-                                className="full" htmlFor="star4" title="Pretty good - 4 "></label>
-                                <input type="radio" id="star3" name="rating" value="3" checked="true"/><label
-                                className="full" htmlFor="star3" title="Meh - 3 "></label>
-                                <input type="radio" id="star2" name="rating" value="2" checked="true"/><label
-                                className="full" htmlFor="star2" title="Kinda bad - 2 "></label>
-                                <input type="radio" id="star1" name="rating" value="1" checked="true"/><label
-                                className="full" htmlFor="star1" title="1"></label>
-                                <span className="rating_index" id="rec_rating">1</span>
-                            </fieldset>
-                        </div>
-                    </div>
+        </div>
+        </div>
+        <div className="footer_news_body">
+            <div className="right_column">
+            <img src={face} alt=""/>
+            </div>
+            <div className="left_column">
 
-                    <div className="news_body clearfix">
-
-                        <div className="news_text">
-                            <div className="news_text_container">
-                                <div className="img_container">
-                                    <img src={img2} alt=""/>
-                                </div>
-                                <a className="news_title_link" href="#">Заголовок новости</a>
-                                <p className="news_text">
-                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
-                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
-                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?<br/>
-                                    Приветствую! Есть родитель:.wrap display: flex; flex-wrap: wrap И два дочерних:.block ... Должен использоваться Flexbox 2. ... нажатии на слово(или кнопку) раскрывалось окно с видео/картинками/текстом и т.д?
-                                    <span className="expand_text"> ...далее</span>
-                                </p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="footer_news_body">
-                        <div className="right_column">
-                            <img src={face} alt=""/>
-                        </div>
-                        <div className="left_column">
-
-                            <button className="news_btn news_card_more_info">
-                                Подробнее
-                            </button>
-                            <a className="news_card_link" href="#">
-                                <button className="news_btn news_card_read">
-                                    Читать
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="reason">
-                    <li>
-                        <span id="rec_name">f_Category</span>
-                        <span id="rec_time"><Moment locale="ru"
-                                                    format="Do MMM YYYY h:mm">f_PublicationDate</Moment> (<Moment
-                            locale="ru" fromNow>f_PublicationDate</Moment>)</span>
-
-                        <fieldset className="rating" id="rate">
-                            <input type="radio" id="star5" name="rating" value="5"/><label className="full"
-                                                                                           htmlFor="star5"
-                                                                                           title="Awesome - 5 "></label>
-                            <input type="radio" id="star4" name="rating" value="4" checked="true"/><label
-                            className="full" htmlFor="star4" title="Pretty good - 4 "></label>
-                            <input type="radio" id="star3" name="rating" value="3" checked="true"/><label
-                            className="full" htmlFor="star3" title="Meh - 3 "></label>
-                            <input type="radio" id="star2" name="rating" value="2" checked="true"/><label
-                            className="full" htmlFor="star2" title="Kinda bad - 2 "></label>
-                            <input type="radio" id="star1" name="rating" value="1" checked="true"/><label
-                            className="full" htmlFor="star1" title="1"></label>
-                        </fieldset>
-                        <span id="rec_rating">7.6</span>
-                    </li>
-                    <li id="rec_li">
-
-                        <img id="rec_img" src={img2} alt="first"/>
-                        <h2 id="rec_hd">f_Title</h2>
-                        <p id="rec_text">f_Fulltext
-                            <a id="rec_all" href="#">
-                                ...далее</a></p>
-                        <a id="rec_opn" href="#">
-                            <i id="rec_icn" className="fas fa-angle-down"></i></a>
-
-                    </li>
-                    <ul>
-                        <li id="left_dw">
-                            <a id="next" target="_blank" href="">
-                                <img src={next} alt="arrow best"/></a></li>
-                        <li id="read"><a target="_blank" href="">читать</a></li>
-                        <li id="more"><a href="#">подробнее</a></li>
-                        <li id="smile"><img id="smile_a" src={smile} alt="first"/></li>
-                    </ul>
-
-                </div>
-
-
-                {/*  test end 21.05.12   */}
+            <button className="news_btn news_card_more_info">
+            Подробнее
+            </button>
+            <a className="news_card_link" href="#">
+            <button className="news_btn news_card_read">
+            Читать
+            </button>
+            </a>
+            </div>
+            </div>
+            </div>
 
                 {this.state.f_news.map(f_news =>
                     <div className="reason">

@@ -12,7 +12,7 @@ const Usnews = () => (
             <div className="col main_content">
                 <Opt_news/>
                 <div className="col">
-                    <div className="row">
+                    <div className="row body_pages">
                         <News/>
                         <Word_news/>
                     </div>
