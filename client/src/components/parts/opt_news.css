@@ -4,6 +4,32 @@
 	/*margin-left:210px;*/
 	padding-left: 0px;
 	margin-bottom: 10px;
+	height: 88px;
+	display: block;
+
+}
+.news_filter_container{
+	padding: 7px 15px;
+	margin: 0;
+}
+.news_filter_container button{
+	margin-right: 15px;
+}
+.news_filter_container button:last-child{
+	margin-right: 0;
+}
+#reportrange{
+	padding-left: 30px;
+	position: relative;
+}
+#reportrange::before{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 16px;
+	background-image: url("images/ic_insert_invitation_black_18px.svg");
+	left: 15px;
+	top: 6px;
 
 }
 #n_first{
@@ -25,14 +51,6 @@
 
 }
 
-#newssearch{
-	margin-top: 7px;
-	margin-left:10px;
-	margin-right: 10px;
-	border:none;
-	font-size: 14px;
-	width: 68%;
-}
 
 #daterange{
 	margin-top: 7px;
@@ -201,11 +219,7 @@ margin-right:20px;
 }
 
 /* Hide the browser's default checkbox */
-.containeree input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-}
+
 .rainee{
 	display: block;
 	margin-left: 20px;
@@ -352,34 +366,23 @@ margin-right:20px;
 #fil_add:hover{
 	text-decoration: none;
 	}
-#fil_add img{
-	border: 1px solid white;
-	border-radius: 100%;
-	width: 18px;
-	height: 18px;
-	margin-right: 10px;
 
-	}
-
-#search_icon{
-	color: var(--blue);
-	margin-left: 5px;
-}
 
 /* Daterange*/
 #reportrange{
+	background: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	border: 1px solid #ccc;
+	border-radius:15px;
+	height: 30px;
+}
+#reportrange span{
+	font-size: 14px;
+	text-align: center;
+	width:200px;
+	padding-top: 3px;
 
-background: #fff;
- cursor: pointer;
-  padding: 5px 10px;
-   border: 1px solid #ccc;
-   	margin-top: 7px;
-border-radius:15px 15px 15px 15px;
-width:200px;
-text-align: center;
-float: right;
-margin-right: 30px;
-height: 26px;
 }
 
 .daterangepicker .calendar {
@@ -394,3 +397,15 @@ height: 26px;
 	background: var(--halfg);
 }
 
+/* 23.05.2018 */
+
+.navbar{
+	padding: 0;
+}
+.search_row{
+	padding: 0;
+	margin: 0;
+}
+.search_flex_block{
+	padding-left: 0;
+}

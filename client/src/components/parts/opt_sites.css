@@ -9,13 +9,12 @@
 	padding-bottom: 0px;
 	border-bottom: 1px solid var(--halfg);
 	height: 44px;
-	padding-right: 15px;
 }
 #search_flex_block{
 	display: flex;
 	justify-content: space-between;
 }
-#sitesSearch{
+.sitesSearch{
 	margin-top: 0px;
 	margin-left:0px;
 	border:none;
