@@ -5,10 +5,19 @@ import Analys from './urls/Analys';
 
 
 const Usanalys = () => (
-		<div >
-  		<Left />
-  		<Opt_news />
-     	<Analys />
-      </div>
+	<div className="container-fluid">
+        <div className="row">
+            <Left/>
+            <div className="col main_content">
+                <Opt_news/>
+                <div className="col">
+                    <div className="row body_pages">
+                        <Analys/>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 )
 export default Usanalys;
